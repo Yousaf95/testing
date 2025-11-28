@@ -1,4 +1,4 @@
-# Example: Using Our yProv4SQA with the iTwinAI Repository
+# Example: Using yProv4SQA with the iTwinAI Repository
 
 In this example, we demonstrate how to use our library by analyzing the the [iTwinAI GitHub repository](https://github.com/interTwin-eu/itwinai).  
 
