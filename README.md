@@ -81,3 +81,13 @@ For convenience, we have already uploaded the graphs to the yProv server. You ca
 - **Full assessment history (Fig. 5):** [View Graph](https://explorer.yprov.disi.unitn.it/?file=http%3A%2F%2Fyprov.disi.unitn.it%3A3000%2Fapi%2Fv0%2Fdocuments%2Fitwinai)  
 - **Bronze-vs-Silver diff (Fig. 7):** [View Graph](https://explorer.yprov.disi.unitn.it/?file=http%3A%2F%2Fyprov.disi.unitn.it%3A3000%2Fapi%2Fv0%2Fdocuments%2Fgitdif)
 
+### 3. Using Neo4j Database visualization
+We use the **yProv service** to connect with a Neo4j database for exploring the provenance data.  
+This allows writing **Cypher queries** to analyze the provenance graph and retrieve specific results.
+Here are some sample queries that can be run on the Neo4j database to perform analyses and extract results:
+   ```cypher
+   // Example 1: Retrieve all nodes and relationships
+   MATCH (n)-[r]->(m) 
+   RETURN n, r, m;
+   ```
+
